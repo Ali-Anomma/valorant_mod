@@ -1,0 +1,19 @@
+[{
+    "type": "effect_type",
+    "id": "rapidfire",
+    "name": [ "RapidFire" ],
+"desc": [ "You are boosted by RapidFire.Your speed is greatly increased." ],
+    "apply_message": "RapidFire boosts you.",
+    "remove_message": "You are no longer boosted by RapidFire.",
+    "rating": "good",
+    "base_mods": { "speed_mod": [ 200] }
+  },{
+    "type": "effect_type",
+    "id": "sage_slow_effect",
+    "name": [ "Slowed by orb" ],
+"desc": [ "You are stepped on Sage's slowing field.Your speed is greatly decrased until you leave the field." ],
+    "apply_message": "Sage's orb slows yoı.",
+    "remove_message": "You are no longer slowed by orb.",
+    "rating": "bad",
+    "base_mods": { "speed_mod": [ -50] }
+  }]

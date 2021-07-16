@@ -1,0 +1,70 @@
+[
+{
+    "id": "fd_valo_smoke",
+    "type": "field_type",
+    "intensity_levels": [
+      {
+        "name": "valorant smoke",
+        "color": "light_gray",
+        "transparent": false
+      }
+],
+    "phase": "gas",
+    "display_items": false,
+    "display_field": true,
+"half_life":"10 minutes",
+    "looks_like": "fd_smoke"
+  },
+{
+    "id": "fd_rapidfire",
+    "type": "field_type",
+    "intensity_levels": [
+      {
+        "name": "RapidFire",
+        "sym": "%",
+        "color": "pink",
+        "effects": [
+          {
+            "effect_id": "rapidfire",
+"min_duration": "1 seconds",
+           "max_duration": "1 seconds"
+          }
+        ]
+      }
+    ],"phase": "plasma","display_field": true,"half_life": "2 seconds",
+"looks_like": "fd_spotlight"},
+{
+    "id": "fd_sage_slow",
+    "type": "field_type",
+    "intensity_levels": [
+      {
+        "name": "Slowing field",
+        "sym": "%",
+        "color": "blue",
+        "effects": [
+          {
+            "effect_id": "sage_slow_effect",
+"min_duration": "1 seconds",
+           "max_duration": "1 seconds"
+          }
+        ]
+      }
+    ],
+"phase": "plasma",
+"display_field": true,
+"half_life":"10 minutes",
+"looks_like": "fd_acid"
+},{
+    "id": "emit_beacon",
+    "type": "emit",
+    "field": "fd_rapidfire",
+    "intensity": 1,
+    "qty": 96
+  },{
+    "id": "emit_scout_drone",
+    "type": "emit",
+    "field": "fd_clairvoyant",
+    "intensity": 1,
+    "qty": 72
+  }
+]

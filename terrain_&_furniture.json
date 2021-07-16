@@ -1,0 +1,29 @@
+[{"type": "ter_furn_transform",
+    "id": "rise_barrier","terrain": [
+  {
+    "result": "t_sage_barrier",
+    "valid_flags": [ "FLAT" ],
+    "message": "A barrier risen from ground!"
+  }
+]},{
+    "type": "terrain",
+    "id": "t_sage_barrier",
+    "name":"Barrier",
+    "description": "Sage placed this barrier for protecting her and her allies.",
+    "symbol": "#",
+    "color": "blue",
+    "move_cost": 0,
+    "coverage": 100,
+"looks_like":"t_wall_glass",
+    "flags": [ "NOITEM", "WALL", "NO_SCENT","AUTO_WALL_SYMBOL" ],
+    "bash": {
+      "str_min": 8,
+      "str_max": 24,
+      "sound": "crash!",
+      "sound_fail": "whumb!",
+      "sound_vol": 16,
+      "sound_fail_vol": 8,
+      "ter_set": "t_concrete"
+    },
+    "shoot": { "destroy_damage": [ 0, 800 ],"reduce_damage":[0,20],"reduce_damage_laser":[0,20] }
+  }]
