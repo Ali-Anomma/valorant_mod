@@ -69,7 +69,7 @@
     "id": "sova_ulti",
     "type": "SPELL",
     "name": "Hunters fury",
-    "description": "Sova fires an arrow that pierces walls and enemies and causing lethal damage..",
+    "description": "Sova fires an arrow that pierces walls and enemies and causing lethal damage.",
     "effect": "attack",
     "shape": "line",
     "valid_targets": ["hostile","ground" ],
