@@ -17,7 +17,8 @@
     "max_duration": 500,
     "spell_class": "NONE",
     "flags": [ "SILENT", "NO_LEGS", "NO_HANDS", "NO_PROJECTILE","IGNORE_WALLS" ],
-    "energy_source": "NONE"
+    "energy_source": "NONE",
+"difficulty": -100
   },
 {
     "id": "omen_smoke",
@@ -40,6 +41,26 @@
     "max_field_intensity": 10,
     "spell_class": "NONE",
     "base_casting_time": 150,
+    "base_energy_cost": 0,
+    "energy_source": "NONE",
+    "difficulty": -100
+  },
+{
+    "id": "omen_teleport",
+    "type": "SPELL",
+    "name": "Shrouded step",
+    "description": "Omen teleports a short distance.",
+    "effect": "teleport_random",
+    "shape": "blast",
+    "valid_targets": ["ground","hostile","self","ally"],
+    "flags": [ "NO_LEGS","NO_HANDS","SILENT","IGNORE_WALLS","NO_PROJECTILE"],
+    "min_aoe": 1,
+    "max_aoe": 1,
+    "min_range": 10,
+    "max_range": 10,
+    "field_chance": 1,
+    "spell_class": "NONE",
+    "base_casting_time": 200,
     "base_energy_cost": 0,
     "energy_source": "NONE",
     "difficulty": -100
