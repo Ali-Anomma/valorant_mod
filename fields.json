@@ -1,4 +1,25 @@
-[
+[{"id":"fd_viper_gas",
+"type":"field_type",
+"half_life":"15 minutes",
+"intensity_levels": [
+      {
+        "name": "Viper's gas",
+        "sym": "%",
+"transparent":false,
+        "color": "green",
+"effects": [
+          {
+            "effect_id": "poison",
+            "body_part": "mouth",
+            "intensity": 5,
+            "min_duration": "1 minutes",
+            "max_duration": "1 minutes",
+            "message": "You feel sick from inhaling toxic gas.",
+            "message_type": "bad"
+          }]}],
+"immunity_data": { "body_part_env_resistance": [ [ "mouth", 15 ] ] },
+"display_field":true,
+"looks_like":"fd_toxic_gas"},
 {
     "id": "fd_valo_smoke",
     "type": "field_type",
@@ -53,7 +74,7 @@
 "phase": "plasma",
 "display_field": true,
 "half_life":"10 minutes",
-"looks_like": "fd_acid"
+"looks_like": "t_water_sh"
 },{
     "id": "emit_beacon",
     "type": "emit",
