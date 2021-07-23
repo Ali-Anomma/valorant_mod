@@ -1,0 +1,44 @@
+[{ 
+    "result": "kit_brim",
+    "type": "uncraft",
+    "activity_level": "fake",
+    "time": "1 s",
+    "components": [ [ [ "token_brim_smoke", 3 ] ],[ [ "token_brim_fire", 1 ] ],[ [ "token_brim_beacon", 2 ] ],[ [ "token_brim_ulti", 1 ] ] ]},
+{ 
+    "result": "kit_sage",
+    "type": "uncraft",
+    "activity_level": "fake",
+    "time": "1 s",
+    "components": [ [ [ "token_sage_slow", 2 ] ],[ [ "token_sage_heal", 1 ] ],[ [ "token_sage_barrier", 1 ] ],[ [ "token_sage_ulti", 1 ] ] ]}
+,
+{ 
+    "result": "kit_viper",
+    "type": "uncraft",
+    "activity_level": "fake",
+    "time": "1 s",
+    "components": [ [ [ "token_viper_acid", 2 ] ],[ [ "token_viper_line", 1 ] ],[ [ "token_viper_cloud", 1 ] ],[ [ "token_viper_ulti", 1 ] ] ]},
+{ 
+    "result": "kit_sova",
+    "type": "uncraft",
+    "activity_level": "fake",
+    "time": "1 s",
+    "components": [ [ [ "token_sova_shock_arrow", 2 ] ],[ [ "token_sova_scout_arrow", 1 ] ],[ [ "token_sova_summon_drone", 1 ] ],[ [ "token_sova_ulti", 1 ] ] ]},
+{ 
+    "result": "kit_skye",
+    "type": "uncraft",
+    "activity_level": "fake",
+    "time": "1 s",
+    "components": [ [ [ "token_skye_flash", 3 ] ],[ [ "token_skye_heal", 1 ] ],[ [ "token_skye_summon_tiger", 1 ] ],[ [ "token_skye_ulti", 1 ] ] ]},
+{ 
+    "result": "kit_raze",
+    "type": "uncraft",
+    "activity_level": "fake",
+    "time": "1 s",
+    "components": [ [ [ "token_raze_charge", 2 ] ],[ [ "token_raze_paint", 1 ] ],[ [ "token_raze_summon_bot", 1 ] ],[ [ "token_raze_ulti", 1 ] ] ]},
+{ 
+    "result": "kit_breach",
+    "type": "uncraft",
+    "activity_level": "fake",
+    "time": "1 s",
+    "components": [ [ [ "token_breach_flash", 2 ] ],[ [ "token_breach_earthquake", 1 ] ],[ [ "token_breach_fire", 1 ] ],[ [ "token_breach_ulti", 1 ] ] ]}
+]
