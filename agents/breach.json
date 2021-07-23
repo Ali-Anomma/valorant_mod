@@ -115,7 +115,7 @@
   },{
     "id": "breach_ulti_fake_daze",
     "type": "SPELL",
-    "name": "Rolling thunder",
+    "name": "Rolling thunder fake spell",
     "description": "Fake spell for Rolling thunders daze.",
     "effect": "attack",
 "effect_str":"dazed",
@@ -138,7 +138,7 @@
 {
     "id": "breach_ulti_fake_down",
     "type": "SPELL",
-    "name": "Rolling thunder",
+    "name": "Rolling thunder fake spell",
     "description": "Fake spell for Rolling thunders down.",
     "effect": "attack",
 "effect_str":"downed",
