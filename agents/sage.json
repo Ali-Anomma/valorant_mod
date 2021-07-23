@@ -74,7 +74,7 @@
 "max_damage": -60,
               "difficulty":-100,
 "flags":["NO_PROJECTILE","NO_LEGS","NO_HANDS","SILENT"]},
-{"id": "sage_revive",
+{"id": "sage_ulti",
 	"type": "SPELL",
 	"name": "Revive",
 	"description": "Revives the selectes ally.",
